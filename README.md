@@ -2,6 +2,11 @@
 
 A MySQL session store for [express.js](http://expressjs.com/). Compatible with [express-session](https://github.com/expressjs/session).
 
+> [!IMPORTANT]  
+> This is a small fork a project clean project of mine until the [true package](https://github.com/chill117/express-mysql-session/issues/153) is being updated.
+
+
+
 ![Build Status](https://github.com/chill117/express-mysql-session/actions/workflows/tests.yml/badge.svg)
 
 * [Installation](#installation)
@@ -25,7 +30,7 @@ A MySQL session store for [express.js](http://expressjs.com/). Compatible with [
 
 Add to your application via `npm`:
 ```bash
-npm install express-mysql-session --save
+npm install @matsukky/express-mysql-session" --save
 ```
 This will install `express-mysql-session` and add it to your application's `package.json` file.
 
