@@ -1,7 +1,7 @@
 {
   "name": "@matsukky/express-mysql-session",
   "description": "A MySQL session store for express.js",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "main": "index.js",
   "scripts": {
     "test": "npm run test:unit && npm run test:integration",
@@ -10,23 +10,31 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/chill117/express-mysql-session"
+    "url": "git://github.com/matsukky/express-mysql-session"
   },
   "author": {
     "name": "Charles Hill",
     "email": "chill@degreesofzero.com"
   },
+  "contributors": [{
+    "name": "Maya",
+    "email": "code@matsukky.com"
+  },
+  {
+    "name": "Karesz",
+    "email": "contact@karoly.dev"
+  }],
   "license": "MIT",
   "dependencies": {
-    "debug": "4.3.4",
-    "mysql2": "3.10.0"
+    "debug": "4.3.5",
+    "mysql2": "3.10.2"
   },
   "devDependencies": {
     "express": "4.19.2",
     "express-session": "1.18.0",
-    "mocha": "10.4.0"
+    "mocha": "10.6.0"
   },
-  "readmeFilename": "readme.md",
+  "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/chill117/express-mysql-session/issues"
   }
